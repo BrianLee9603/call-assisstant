@@ -1,0 +1,14 @@
+Speaker,Dialogue
+AI,Thank you for calling Jacobs Plumbing. How can I assist you today?
+Caller,Hi, I'm Steven Manley. I need to schedule a plumbing appointment.
+AI,Great, Steven. Can you please provide your address?
+Caller,123 Main Street, Springfield.
+AI,Thank you. Let me confirm we service that area. [pause] Yes, we do. What service do you need?
+Caller,I have a leaky faucet.
+AI,Okay, I can schedule a technician for that. Are you available tomorrow at 10 AM?
+Caller,Yes, that works.
+AI,Perfect. I’ve scheduled your appointment for tomorrow at 10 AM at 123 Main Street. Can I have your phone number for confirmation?
+Caller,555-123-4567.
+AI,Thank you, Steven. We’ll call you at 555-123-4567 if anything changes. Anything else I can help with?
+Caller,No, that’s all. Thanks!
+AI,My pleasure. Have a great day!

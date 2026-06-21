@@ -1,0 +1,29 @@
+services:
+  assistant:
+    build: .
+    image: call-assistant:latest
+    container_name: call_assistant_app
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+    volumes:
+      - ./bookings.json:/app/bookings.json
+
+  simulator:
+    build: .
+    image: call-assistant:latest
+    container_name: call_assistant_simulator
+    env_file:
+      - .env
+    volumes:
+      - ./bookings.json:/app/bookings.json
+    command: python scripts/simulate.py --csv scripts/main_scenario.csv
+
+  tests:
+    build: .
+    image: call-assistant:latest
+    container_name: call_assistant_tests
+    env_file:
+      - .env
+    command: python -m unittest tests/test_tools.py

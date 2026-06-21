@@ -1,0 +1,8 @@
+Speaker,Dialogue
+AI,Thank you for calling Jacobs Plumbing. How can I assist you today?
+Caller,Hi, I'm Steven Manley. I need to schedule a plumbing appointment.
+AI,Great, Steven. Can you please provide your address?
+Caller,456 Oak Road, Boston.
+AI,Thank you. Let me confirm we service that area. [pause] I'm sorry, Steven, but we do not service Boston at this time. We apologize for the inconvenience.
+Caller,Oh, okay. I will look for someone else. Thanks anyway.
+AI,My pleasure. Have a great day!

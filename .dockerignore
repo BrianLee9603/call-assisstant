@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+bookings.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.idea/
+.gemini/
+*task*.log
+*walkthrough*.md
+*implementation_plan*.md

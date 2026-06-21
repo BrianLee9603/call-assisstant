@@ -1,0 +1,23 @@
+# Environment Variables
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logging and outputs
+*.log
+
+# Internal Documentation
+docs/
+
+# Mock Databases
+bookings.json
+
